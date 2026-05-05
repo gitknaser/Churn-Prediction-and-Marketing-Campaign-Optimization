@@ -58,5 +58,7 @@ The marketing campaign aims to reduce churn by contacting individuals, with each
 
 The profit formula used is based on this understanding.
 
+![Cumulative profit curves for each model with the percentage of the targeted population](images/profit.png)
+
 ## Conclusion
 Our models proved to be a valuable decision-making tool for the marketing campaign, with profit curves closely matching theoretical expectations. We could further enhance model performance by collecting more data and improving the data preprocessing phase.
