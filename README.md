@@ -28,15 +28,6 @@ After handling these issues, we merged the datasets into a single dataset named 
 ## Modeling (Machine Learning)
 The goal was to predict customer renewal (target variable: `si2014`) for marketing purposes. We tested various statistical methods to select the most relevant features (X) for our predictions.
 
-### Résultats avant/après tuning
-![Model comparison](images/model_comparison.png)
-
-### ROC Curves
-![ROC Curves](images/roc_curves.png)
-
-## Feature Importance
-![Feature importance](images/feature_importance.png)
-
 ### Classification Models Used:
 - Logistic Regression
 - Decision Trees
@@ -45,11 +36,18 @@ The goal was to predict customer renewal (target variable: `si2014`) for marketi
 
 ### Model Tuning
 Before and after hyperparameter tuning, we observed improvements in model performance, particularly for Random Forest, which saw an increase from 69% to 75% accuracy. This means that the model correctly predicted non-renewal for 3 out of 4 individuals.
+![Model comparison](images/model_comparison.png)
+
 
 ### ROC Curve and AUC
 The ROC curve shows the relationship between the true positive rate (sensitivity) and false positive rate (1 - specificity) for different classification thresholds. The AUC (Area Under the Curve) measures model performance, where a value close to 1 indicates strong predictive ability.
 
+![ROC Curves](images/roc_curves.png)
+
 - **Best Model**: XGBoost with an AUC of 0.78, suggesting reasonable discrimination between churners and non-churners.
+
+![Feature importance](images/feature_importance.png)
+
 - **Probability Distribution**: The Random Forest model accurately classifies non-churners with high probability but struggles with churners.
 
 ## Profit Curve
