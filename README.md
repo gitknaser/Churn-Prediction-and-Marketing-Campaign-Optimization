@@ -28,6 +28,15 @@ After handling these issues, we merged the datasets into a single dataset named 
 ## Modeling (Machine Learning)
 The goal was to predict customer renewal (target variable: `si2014`) for marketing purposes. We tested various statistical methods to select the most relevant features (X) for our predictions.
 
+### Résultats avant/après tuning
+![Model comparison](images/model_comparison.png)
+
+### ROC Curves
+![ROC Curves](images/roc_curves.png)
+
+## Feature Importance
+![Feature importance](images/feature_importance.png)
+
 ### Classification Models Used:
 - Logistic Regression
 - Decision Trees
