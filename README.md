@@ -36,6 +36,7 @@ The goal was to predict customer renewal (target variable: `si2014`) for marketi
 
 ### Model Tuning
 Before and after hyperparameter tuning, we observed improvements in model performance, particularly for Random Forest, which saw an increase from 69% to 75% accuracy. This means that the model correctly predicted non-renewal for 3 out of 4 individuals.
+
 ![Model comparison](images/model_comparison.png)
 
 
